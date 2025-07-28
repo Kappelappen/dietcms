@@ -48,7 +48,7 @@ Kopiera projektmappen till:
 ### 4. Skapa databasen
 
 1. Gå till [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
-2. Skapa en ny databas, till exempel: `cms_db`
+2. Skapa en ny databas, till exempel: `dietcms`
 3. Importera `database.sql` (om du har bifogat en SQL-fil med tabellstruktur och testdata)
 
 ### 5. Konfigurera databasuppkoppling
@@ -57,6 +57,6 @@ I projektets `includes/config.php`, uppdatera följande rader om det behövs:
 
 ```php
 $host = 'localhost';
-$dbname = 'cms_db'; // ditt databasnamn
+$dbname = 'dietcms'; // ditt databasnamn
 $username = 'root';
 $password = ''; // standard i XAMPP är tomt lösenord
