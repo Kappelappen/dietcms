@@ -57,6 +57,6 @@ I projektets `includes/config.php`, uppdatera följande rader om det behövs:
 
 ```php
 $host = 'localhost';
-$dbname = 'dietcms'; // ditt databasnamn
+$dbname = 'dietcms';
 $username = 'root';
-$password = ''; // standard i XAMPP är tomt lösenord
+$password = '';
