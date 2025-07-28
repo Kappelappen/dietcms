@@ -1,0 +1,123 @@
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html, body {
+
+	height: 100%;
+	font-family: Arial, sans-serif;
+
+}
+
+body {
+
+	display: flex;
+	flex-direction: column;
+  min-height: 100vh;
+  background-color: #FF6600;
+
+}
+
+#container {
+
+	flex: 1 0 auto;
+	width: 100%;
+  	background: #ffffcc;
+  	text-align: left;
+  	overflow: hidden;
+}
+
+#header {
+  
+	width: 100%;
+  	background: #FF6600;
+  	border-top: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+  	color: white;
+}
+
+#header h1 {
+
+	padding-left: 12px;
+
+}
+
+#headline {
+	
+	padding-left: 6px;
+	margin-top: 0;
+	margin-bottom: 6px;
+  	font-size: auto;
+  	font-weight: normal;
+  	background: #ffffcc;
+ 	color: #333;
+}
+
+#nav {
+  overflow-x: auto;
+  list-style: none;
+  padding: 4px 6px 6px 6px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  background: #333;
+}
+
+#nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 3px;
+  transition: background 0.3s;
+}
+
+#nav li a:hover {
+  background: #555;
+}
+
+#header nav ul::-webkit-scrollbar {
+  height: 10px;
+}
+#header nav ul::-webkit-scrollbar-track {
+  background: #eee;
+  border-radius: 4px;
+}
+#header nav ul::-webkit-scrollbar-thumb {
+  background: #c0392b;
+  border-radius: 4px;
+}
+#header nav ul {
+  scrollbar-width: thin;
+  scrollbar-color: #c0392b #eee;
+}
+
+#main {
+
+  padding: 0;
+  max-width: 1200px;
+  padding-bottom: 15px;
+  background: #ffffcc;
+
+}
+
+#footer {
+
+  flex-shrink: 0;
+  background: #FF6600;
+  height: 60px;
+  line-height: 60px;
+  color: white;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+
+}

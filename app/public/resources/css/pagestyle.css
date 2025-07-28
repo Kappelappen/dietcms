@@ -1,0 +1,239 @@
+
+#headline {
+
+  margin-top: 10px;
+  padding-left: 10px;
+
+}
+
+.error-message {
+
+  position: relative;
+  clear: both;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #CC0000;
+  padding-left: 13px;
+
+
+}
+
+.intro-text {
+
+  position: relative;
+  width: 800px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+
+}
+
+.lipsum-text p {
+
+  margin-left: 11px;
+  margin-bottom: 10px;
+
+}
+
+#login-list ul {
+
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  margin-left: 12px;
+  margin-bottom: 10px;
+  text-align: left;
+
+}
+
+#login-list ul li {
+  
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #CC0000;
+
+}
+
+#login-list ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Grundinställningar för formuläret */
+#login-form {
+
+  width: 350px;
+  margin-top: 10px;
+  margin-left: 12px; /* centrera på sidan */
+  padding: 0;
+  background-color: #FFFFCC;
+  font-family: Arial, sans-serif;
+
+}
+
+#login-info {
+
+  width: 350px;
+  padding-left: 0%;
+  margin-bottom: 10px;
+
+}
+
+#login-form {
+
+  margin-bottom: 30px;
+
+}
+
+/* Stil för varje label */
+#login-form label {
+
+  display: block;            /* gör så label lägger sig ovanför */
+  margin-bottom: 6px;        /* lite avstånd under labeln */
+  font-weight: bold;
+  color: #333;
+}
+
+/* Stil för textfälten */
+#login-form input[type="text"],
+#login-form input[type="password"] {
+  
+  width: 100%;               /* fyller hela formulärets bredd */
+  padding: 6px;
+  margin-bottom: 6px;       /* avstånd till nästa element */
+  border: 1px solid #333333;
+  border-radius: 4px;
+  box-sizing: border-box;    /* inkluderar padding i width */
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Stil för knappen */
+#login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #009999;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+#login-btn:hover {
+  background-color: #0056b3;
+}
+
+.pagination {
+
+  position: relative;
+  width: 100%;
+  margin-top:10px;
+  margin-bottom: 10px;
+  padding-left: 14px;
+
+}
+
+/* Formuläret till vänster med padding inuti */
+#article-form {
+  
+  margin-left: 0;
+  padding-left: 11px; /* Inre luft, justera som du vill */
+  max-width: 600px; /* Valfri maxbredd */
+  box-sizing: border-box; /* Så padding räknas in i bredden */
+
+}
+
+/* Stil för formulärets inputs och textarea */
+#article-form input[type="text"],
+#article-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Stil för knappen */
+#article-form button {
+
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+#article-form button:hover {
+  background-color: #0056b3;
+}
+
+.dashboard-story {
+
+  position: relative;
+  clear: both;
+
+}
+
+.dashboard-story h1 {
+
+  margin-left: 12px;
+
+}
+
+.page-headline {
+
+  position: relative;
+  display: block;
+  padding-left: 12px;
+  margin-bottom: 10px;
+
+}
+
+.dashboard-group {
+
+  position: relative;
+  display: block;
+  clear: both;
+  padding-left: 12px;
+
+}
+
+.dashboard-info {
+
+  margin-top: 10px;
+  margin-bottom: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+}
+
+.dashboard-action {
+
+  position: relative;
+  clear: both;
+
+}
+
+.dashboard-action a {
+
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #003399;
+
+}
+
+.dashboard-action a:hover {
+
+  text-decoration: underline;
+
+}

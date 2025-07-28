@@ -1,0 +1,8 @@
+<p>
+This CMS project was built as part of my learning journey in PHP and the Model-View-Controller (MVC) design pattern. 
+While developing it, I used AI (ChatGPT) as a tool to assist with code structure, syntax, and problem-solving.</p>
+<p>
+Some code snippets were generated with AI support, but all parts of the code have been thoroughly reviewed, understood, and customized to fit the purpose of this application. 
+The goal has always been to learn by doing — to understand how a CMS works under the hood and to write clean, maintainable code based on real-world concepts. 
+This project reflects both my current skills and my commitment to growing as a developer.
+</p>
