@@ -108,7 +108,6 @@ class ArticleController {
         
         $articles = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-        // Räkna totalt antal artiklar för att räkna ut antal sidor
         $countStmt = $this->pdo->query("SELECT COUNT(*) as total FROM article");
         $total = $countStmt->fetch(PDO::FETCH_ASSOC)['total'];
         $totalPages = ceil($total / $perPage);
