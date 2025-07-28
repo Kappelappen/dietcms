@@ -49,7 +49,7 @@ class ArticleController {
 
             if ($content == '') {
 
-                $this->errors[] = "Story is required.";
+                $this->errors[] = "Content is required.";
 
             }
 
@@ -113,7 +113,6 @@ class ArticleController {
         $total = $countStmt->fetch(PDO::FETCH_ASSOC)['total'];
         $totalPages = ceil($total / $perPage);
 
-        // Returnera data till vyn
         return [
         
             'articles' => $articles,
